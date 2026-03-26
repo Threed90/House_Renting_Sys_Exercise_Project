@@ -1,3 +1,6 @@
 <Solution>
+  <Project Path="HouseRent.Data/HouseRent.Data.csproj" />
+  <Project Path="HouseRent.Globals/HouseRent.Globals.csproj" />
   <Project Path="HouseRent.MVC/HouseRent.MVC.csproj" />
+  <Project Path="HouseRent.Services/HouseRent.Services.csproj" />
 </Solution>
