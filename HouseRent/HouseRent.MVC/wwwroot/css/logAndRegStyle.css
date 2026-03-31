@@ -1,0 +1,63 @@
+﻿
+/* Центриране на формата */
+.auth-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f3f3f3;
+    padding: 20px;
+}
+
+/* Кутията на формата */
+.auth-box {
+    background: white;
+    padding: 30px;
+    width: 100%;
+    max-width: 380px;
+    border-radius: 10px;
+    display: grid;
+    gap: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+    /* Текстови полета */
+    .auth-box input {
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        font-size: 1rem;
+    }
+
+/* Бутоните */
+.auth-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.btn-primary {
+    background: #0078ff;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+    .btn-primary:hover {
+        background: #005fcc;
+    }
+
+.btn-secondary {
+    background: #ccc;
+    color: black;
+    padding: 10px 18px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+    .btn-secondary:hover {
+        background: #b3b3b3;
+    }

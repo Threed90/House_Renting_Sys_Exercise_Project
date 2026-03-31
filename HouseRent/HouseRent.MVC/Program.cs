@@ -1,5 +1,6 @@
 using HouseRent.Data;
 using HouseRent.Data.DataModels;
+using HouseRent.Globals;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Identity.Client;
@@ -19,7 +20,7 @@ builder.Services.AddDefaultIdentity<ApplicationUser>(options =>
     options.Password.RequireLowercase = false;
     options.Password.RequireNonAlphanumeric = false;
     options.Password.RequireUppercase = false;
-    options.Password.RequiredLength = 3;
+    options.Password.RequiredLength = Constants.User.PasswordMinLength;
 
 })
     .AddRoles<IdentityRole<Guid>>()

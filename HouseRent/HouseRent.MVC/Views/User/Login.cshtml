@@ -1,0 +1,23 @@
+﻿
+
+<div class="auth-container">
+    <form class="auth-box">
+        <h2>Login</h2>
+
+        <label for="userOrEmail">Username or Email</label>
+        <input type="text" id="userOrEmail" name="userOrEmail" required />
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required />
+
+        <div class="auth-actions">
+            <button type="submit" class="btn-primary">Login</button>
+            <a href="/" class="btn-secondary">Cancel</a>
+        </div>
+    </form>
+</div>
+
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/logAndRegStyle.css" asp-append-version="true" />
+}
