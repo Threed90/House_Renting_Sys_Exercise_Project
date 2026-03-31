@@ -19,8 +19,8 @@ namespace HouseRent.Data.DTO
         [Compare(nameof(Password), ErrorMessage = ErrorMessages.User.PasswordsDoNotMatch)]
         public string RePass { get; set; }
 
-        [Required(ErrorMessage = ErrorMessages.RequiredErrorMessage)]
         [EmailAddress]
+        [Required(ErrorMessage = ErrorMessages.RequiredErrorMessage)]
         public string Email { get; set; }
     }
 }

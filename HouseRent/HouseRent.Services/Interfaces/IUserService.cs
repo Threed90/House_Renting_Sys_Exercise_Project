@@ -13,7 +13,7 @@ namespace HouseRent.Services.Interfaces
 
         public Task SetUserInfo(UserInfoViewModel model);
 
-        public Task PromoteToAgent(string userId)
+        public Task PromoteToAgent(string userId);
         public Task Logout();
     }
 }
